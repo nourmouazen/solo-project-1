@@ -1,6 +1,7 @@
 // index-1-.html page //
   $("#log").click(function(){
-  	 $("#start-button").show(1000);
+ 	var url = ("file:///C:/Users/Toshiba/Desktop/solo-project-1/index-0-.html");
+	   window.open(url,"_self");
   });
 
  $("#start-button").click(function(){
@@ -9,22 +10,17 @@
    });
 
  // our community page //
- //it doesn't work yet
-/* $("#addFeedback").click(function(){
- 	console.log("i work")
+
+ $("#addFeedback").click(function(){
  	var feedback = [];
  	var add = $("#feedback").val()
  	if(add === ""){
  		alert("You must write your feedback")
  	}else{
- 		$("#CommunityList").append(add)
- 		add.map(function(){
- 			return this.id;
- 			.get()
-            .join();
- 		})
+ 		feedback.push($("#CommunityList").append("<li>"+add+"</li>"))
+ 		return feedback;
  	}
- }); */
+ }); 
 //// BACK ///
  //back to home
  $("#home").click(function(){
@@ -53,18 +49,69 @@
      var url = ("file:///C:/Users/Toshiba/Desktop/solo-project-1/Gifts&Balloons.html")
      window.open(url,"_self")
     })
-    $("#log").click(function(){
-    	var add = ("<button id="start-button"style="margin-left: 275px;margin-top:20px;font-size:50px">Let's start !</button>")
-    })
-
-   $("#select-Occasions").click(function(){
-   	var url =("file:///C:/Users/Toshiba/Desktop/solo-project-1/home2.html")
+       $("#select-Occasions").click(function(){
+   	var url =("file:///C:/Users/Toshiba/Desktop/solo-project-1/flower.html")
    	window.open(url,"_self")
    })
-   //home button
-   $("#Flower").mouseout(function(){
+    //flower page
+    	var colors = ["Red", "Pink", "White", "Yellow", "Mix"];
+    	$("#select-Color").click(function(){
+    		$("#FlowerSelect").hide();
+    		if (colors[0] === $("#check-color").val()){
+    			console.log($("#check-color").val())
+    			console.log("hu")
+    			$("#Red").append(
+    				'<li>nour</li>')
+    		}
+    	})
+  // $("#select-Color").click(function(){
+  // 	var url =("file:///C:/Users/Toshiba/Desktop/solo-project-1/flower.html")
+  // 	window.open(url,"_self")
+  //  })
 
+
+// they didn't work
+   // $("#log").click(function(){
+   //  	var add = ("<button id="start-button"style="margin-left: 275px;margin-top:20px;font-size:50px">Let's start !</button>")
+   //  })
+   // $("#select-Occasions").click(function(){
+   // 	var url =("file:///C:/Users/Toshiba/Desktop/solo-project-1/home2.html")
+   // 	window.open(url,"_self")
+   // })
+   // //home button
+   // $("#Flower").mouseout(function(){
+
+   // })
+   // function openSelect(){
+
+   // }
+   $("#colorRed").click(function(){
+   	var url = "file:///C:/Users/Toshiba/Desktop/solo-project-1/redFlower.html"
+   	window.open(url,"_self")
    })
-   function openSelect(){
+   // red flower
+   $(".addto").click(function(){
+   	var url = "file:///C:/Users/Toshiba/Desktop/solo-project-1/packaging.html"
+   	window.open(url,"_self")   	
+   })
 
-   }
+     $(".addtoo").click(function(){
+   	var url = "file:///C:/Users/Toshiba/Desktop/solo-project-1/Gifts&Balloons.html"
+   	window.open(url,"_self")   	
+   })
+
+   $(".addtooo").click(function(){
+   	var url = "file:///C:/Users/Toshiba/Desktop/solo-project-1/the-gift.html"
+   	window.open(url,"_self")   	
+   })
+
+   $("#addtoooo").click(function(){
+   	var url = "file:///C:/Users/Toshiba/Desktop/solo-project-1/lassst.html"
+   	window.open(url,"_self")   	
+   })
+
+   $("#Save").click(function(){
+   	alert("Thank you for visiting us")
+ 	var url = ("file:///C:/Users/Toshiba/Desktop/solo-project-1/home.html");
+	window.open(url,"_self");   	
+   })
