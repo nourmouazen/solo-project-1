@@ -61,7 +61,7 @@ body{
 
 }
 #search{
-	
+
 	margin-left: 1050px;
 }
 #searchButton{
@@ -82,4 +82,31 @@ body{
 #main-aboutUs{
 	font-variant-position: center;
 	margin-left: 450px
+}
+/*home page */
+#Occasions{
+
+	margin-top: 100px;
+	margin-left: 500px
+}
+#color{
+
+	margin-top: 90px;
+	margin-left: 500px
+}
+/*#OccasionsTitel{
+	border-position : absolute;
+	border-spacing: 100px 10px;
+	background-color:#E57373;
+	font-size: 30px;
+	margin-top: 100px;
+	margin-left: 450px;
+	margin-right: 300px;
+	margin-bottom: 100px
+}*/
+
+/*flower page */
+#FlowerSelect{
+	margin-top: 60px;
+	margin-left: 500px;
 }

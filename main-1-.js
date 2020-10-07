@@ -53,7 +53,18 @@
      var url = ("file:///C:/Users/Toshiba/Desktop/solo-project-1/Gifts&Balloons.html")
      window.open(url,"_self")
     })
+    $("#log").click(function(){
+    	var add = ("<button id="start-button"style="margin-left: 275px;margin-top:20px;font-size:50px">Let's start !</button>")
+    })
+
+   $("#select-Occasions").click(function(){
+   	var url =("file:///C:/Users/Toshiba/Desktop/solo-project-1/home2.html")
+   	window.open(url,"_self")
+   })
    //home button
    $("#Flower").mouseout(function(){
 
    })
+   function openSelect(){
+
+   }
