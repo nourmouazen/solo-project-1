@@ -1,3 +1,22 @@
-#body1 ={
+/*my first page */
+
+body{
 background-image: url('https://images.squarespace-cdn.com/content/v1/58c9a1a5d1758e7bb29f1cf5/1587487972000-VNKPFGZ4Q55CSP5LZE3J/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/28399+%281%29.jpg?format=1500w');
+background-position:center; 
+}
+#mainborder{
+	background-color: rgb(196,196,196,0.6) ;
+	margin-left:  300px;
+	margin-right: 200px;
+	margin-top:25px;
+	border-width: 100px
+	border-bottom: 50px
+}
+#header1{
+	margin-left:55px;
+	margin-right:950px 
+}
+
+#footer1{
+	margin-top: 100px;
 }
