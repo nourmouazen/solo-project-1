@@ -1,16 +1,18 @@
 /*my first page */
 
-body{
+#body1{
 background-image: url('https://images.squarespace-cdn.com/content/v1/58c9a1a5d1758e7bb29f1cf5/1587487972000-VNKPFGZ4Q55CSP5LZE3J/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/28399+%281%29.jpg?format=1500w');
 background-position:center; 
 }
 #mainborder{
+	position : absolute;
+	margin-right: 200px
+	border-spacing: 1000px 1500px; 
+	border-radius: 50px 20px;
 	background-color: rgb(196,196,196,0.6) ;
 	margin-left:  300px;
 	margin-right: 200px;
-	margin-top:25px;
-	border-width: 100px
-	border-bottom: 50px
+	margin-top:65px;
 }
 #header1{
 	margin-left:55px;
@@ -18,5 +20,66 @@ background-position:center;
 }
 
 #footer1{
-	margin-top: 100px;
+	border-position : absolute;
+	border-spacing: 130px 140px;
+	background-color: rgb(196,196,196,0.6) ; 
+	border-radius: 50px 20px;
+	font-size: 12px;
+	margin-left: 1100px;
+	margin-top: 250px;
+}
+/*here is the other pages style*/
+#home{
+	 background-color:#E57373 ;
+	 color:#005125;
+}
+#Flower{
+	 background-color:#E57373 ;
+	 color:#005125;
+}
+#extra{
+	 background-color:#E57373 ;
+	 color:#005125;
+}
+#our-community{
+	 background-color:#E57373 ;
+	 color:#005125;
+}
+#about-us{
+	 background-color:#E57373 ;
+	 color:#005125;
+}
+
+body{
+	background-image: url("https://cdn.pixabay.com/photo/2019/01/26/11/56/flowers-3956074_1280.jpg");
+   background-size: 100%;
+    background-position: tops;
+}
+#title{
+	color: #E57373;
+	margin-left: 500px
+
+}
+#search{
+	
+	margin-left: 1050px;
+}
+#searchButton{
+	margin-left: 1200px;
+	 background-color:#E57373 ;
+	 color:#005125;
+}
+#nav{
+	margin-left: 500px
+}
+#footer{
+	color: #E57373;
+	margin-left: 1170px;
+	margin-top:345px;
+    font-size: 12px;
+}
+/* about us page*/
+#main-aboutUs{
+	font-variant-position: center;
+	margin-left: 450px
 }
