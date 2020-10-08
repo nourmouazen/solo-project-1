@@ -115,3 +115,35 @@
  	var url = ("file:///C:/Users/Toshiba/Desktop/solo-project-1/our-community.html");
 	window.open(url,"_self");   	
    })
+
+   $("#backHome").click(function(){
+    var url = "file:///C:/Users/Toshiba/Desktop/solo-project-1/home.html"
+    window.open(url,"_self")    
+   })
+
+   $("#backcolor").click(function(){
+    var url = "file:///C:/Users/Toshiba/Desktop/solo-project-1/flower.html"
+    window.open(url,"_self")    
+   })
+   
+   
+   $("#backredflower").click(function(){
+    var url = "file:///C:/Users/Toshiba/Desktop/solo-project-1/redFlower.html"
+    window.open(url,"_self")    
+   })
+   
+   
+   $("#backpackaging").click(function(){
+    var url = "file:///C:/Users/Toshiba/Desktop/solo-project-1/packaging.html"
+    window.open(url,"_self")    
+   })   
+   
+   $("#backballoons").click(function(){
+    var url = "file:///C:/Users/Toshiba/Desktop/solo-project-1/Gifts&Balloons.html"
+    window.open(url,"_self")    
+   }) 
+   
+   $("#backConfirm").click(function(){
+    var url = "file:///C:/Users/Toshiba/Desktop/solo-project-1/the-gift.html"
+    window.open(url,"_self")    
+   })
