@@ -112,6 +112,6 @@
 
    $("#Save").click(function(){
    	alert("Thank you for visiting us")
- 	var url = ("file:///C:/Users/Toshiba/Desktop/solo-project-1/home.html");
+ 	var url = ("file:///C:/Users/Toshiba/Desktop/solo-project-1/our-community.html");
 	window.open(url,"_self");   	
    })
